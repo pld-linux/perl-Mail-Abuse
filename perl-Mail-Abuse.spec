@@ -73,7 +73,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{_bindir}/*
+%attr(755,root,root) %{_bindir}/*
 %{perl_vendorlib}/Mail/*.pm
 %{perl_vendorlib}/Mail/Abuse
 %{_mandir}/man?/*
