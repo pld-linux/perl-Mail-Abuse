@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	Abuse
 Summary:	Mail::Abuse - Helps parse and respond to miscellaneous abuse complaints
-#Summary(pl):	
+Summary(pl):	Mail::Abuse - pomoc przy analizie i odpowiedzi na ró¿ne skargi o nadu¿yciach
 Name:		perl-Mail-Abuse
 Version:	1.021
 Release:	1
@@ -14,29 +14,33 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mail/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	93fb9d6625a06f02b318e32911bc1d0e
+URL:		http://search.cpan.org/dist/Mail-Abuse/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(Date::Manip)
+BuildRequires:	perl-Date-Manip
 BuildRequires:	perl(Date::Parse)
-BuildRequires:	perl(Digest::MD5)
+BuildRequires:	perl-Digest-MD5
 BuildRequires:	perl(File::Find)
 BuildRequires:	perl(File::Path)
 BuildRequires:	perl(File::Spec)
-BuildRequires:	perl(HTML::Parser)
+BuildRequires:	perl-HTML-Parser
 BuildRequires:	perl(IO::File)
-BuildRequires:	perl(IO::Zlib)
+BuildRequires:	perl-IO-Zlib
 BuildRequires:	perl(MIME::Entity)
 BuildRequires:	perl(MIME::Parser)
+BuildRequires:	perl-MIME-tools
 BuildRequires:	perl(Mail::Mailer)
+BuildRequires:	perl-MailTools
 BuildRequires:	perl(Net::POP3) >= 2.23
 BuildRequires:	perl-NetAddr-IP >= 3
-BuildRequires:	perl(Params::Validate)
-BuildRequires:	perl(Storable)
+BuildRequires:	perl-Params-Validate
+BuildRequires:	perl-Storable
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-Tie-NetAddr-IP >= 1.51
+BuildRequires:	perl-TimeDate
 BuildRequires:	perl-WWW-Google-Groups
-BuildRequires:	perl(WWW::Mechanize)
+BuildRequires:	perl-WWW-Mechanize
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -47,8 +51,12 @@ parse and respond to various formats of abuse complaints. This software
 is geared towards abuse desk administrators who need sophisticated tools
 to deal with the complains.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ i towarzysz±ce oprogramowanie mo¿e byæ u¿ywane do automatycznej
+analizy i odpowiadania na ró¿ne formaty skarg o nadu¿yciach. To
+oprogramowanie jest ukierunkowane na administratorów obs³uguj±cych
+zg³oszenia o nadu¿yciach, potrzebuj±cych wyszukanych narzêdzi do obs³ugi
+skarg.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
