@@ -12,7 +12,7 @@ Version:	1.021
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Mail/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	93fb9d6625a06f02b318e32911bc1d0e
 URL:		http://search.cpan.org/dist/Mail-Abuse/
 BuildRequires:	perl-devel >= 1:5.8.0
