@@ -30,12 +30,12 @@ BuildRequires:	perl(MIME::Entity)
 BuildRequires:	perl(MIME::Parser)
 BuildRequires:	perl(Mail::Mailer)
 BuildRequires:	perl(Net::POP3) >= 2.23
-BuildRequires:	perl(NetAddr::IP) >= 3
+BuildRequires:	perl-NetAddr-IP >= 3
 BuildRequires:	perl(Params::Validate)
 BuildRequires:	perl(Storable)
 BuildRequires:	perl(Test::More)
-BuildRequires:	perl(Tie::NetAddr::IP) >= 1.51
-BuildRequires:	perl(WWW::Google::Groups)
+BuildRequires:	perl-Tie-NetAddr-IP >= 1.51
+BuildRequires:	perl-WWW-Google-Groups
 BuildRequires:	perl(WWW::Mechanize)
 %endif
 BuildArch:	noarch
