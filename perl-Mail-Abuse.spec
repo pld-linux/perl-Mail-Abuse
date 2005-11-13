@@ -47,16 +47,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This module and the accompaining software can be used to automatically
-parse and respond to various formats of abuse complaints. This software
-is geared towards abuse desk administrators who need sophisticated tools
-to deal with the complains.
+parse and respond to various formats of abuse complaints. This
+software is geared towards abuse desk administrators who need
+sophisticated tools to deal with the complains.
 
 %description -l pl
-Ten modu³ i towarzysz±ce oprogramowanie mo¿e byæ u¿ywane do automatycznej
-analizy i odpowiadania na ró¿ne formaty skarg o nadu¿yciach. To
-oprogramowanie jest ukierunkowane na administratorów obs³uguj±cych
-zg³oszenia o nadu¿yciach, potrzebuj±cych wyszukanych narzêdzi do obs³ugi
-skarg.
+Ten modu³ i towarzysz±ce oprogramowanie mo¿e byæ u¿ywane do
+automatycznej analizy i odpowiadania na ró¿ne formaty skarg o
+nadu¿yciach. To oprogramowanie jest ukierunkowane na administratorów
+obs³uguj±cych zg³oszenia o nadu¿yciach, potrzebuj±cych wyszukanych
+narzêdzi do obs³ugi skarg.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
