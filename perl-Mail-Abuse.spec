@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	Abuse
 Summary:	Mail::Abuse - Helps parse and respond to miscellaneous abuse complaints
-Summary(pl):	Mail::Abuse - pomoc przy analizie i odpowiedzi na ró¿ne skargi o nadu¿yciach
+Summary(pl.UTF-8):   Mail::Abuse - pomoc przy analizie i odpowiedzi na rÃ³Å¼ne skargi o naduÅ¼yciach
 Name:		perl-Mail-Abuse
 Version:	1.021
 Release:	1
@@ -51,12 +51,12 @@ parse and respond to various formats of abuse complaints. This
 software is geared towards abuse desk administrators who need
 sophisticated tools to deal with the complains.
 
-%description -l pl
-Ten modu³ i towarzysz±ce oprogramowanie mo¿e byæ u¿ywane do
-automatycznej analizy i odpowiadania na ró¿ne formaty skarg o
-nadu¿yciach. To oprogramowanie jest ukierunkowane na administratorów
-obs³uguj±cych zg³oszenia o nadu¿yciach, potrzebuj±cych wyszukanych
-narzêdzi do obs³ugi skarg.
+%description -l pl.UTF-8
+Ten moduÅ‚ i towarzyszÄ…ce oprogramowanie moÅ¼e byÄ‡ uÅ¼ywane do
+automatycznej analizy i odpowiadania na rÃ³Å¼ne formaty skarg o
+naduÅ¼yciach. To oprogramowanie jest ukierunkowane na administratorÃ³w
+obsÅ‚ugujÄ…cych zgÅ‚oszenia o naduÅ¼yciach, potrzebujÄ…cych wyszukanych
+narzÄ™dzi do obsÅ‚ugi skarg.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
