@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	Abuse
 Summary:	Mail::Abuse - Helps parse and respond to miscellaneous abuse complaints
-Summary(pl.UTF-8):   Mail::Abuse - pomoc przy analizie i odpowiedzi na różne skargi o nadużyciach
+Summary(pl.UTF-8):	Mail::Abuse - pomoc przy analizie i odpowiedzi na różne skargi o nadużyciach
 Name:		perl-Mail-Abuse
 Version:	1.021
 Release:	1
